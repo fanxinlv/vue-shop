@@ -10,8 +10,10 @@ import './assets/css/global.css'
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import TreeTable from 'vue-table-with-tree-grid'
 
 Vue.use(ElementUI);
+Vue.component('tree-table', TreeTable)
 
 Vue.config.productionTip =false
 
